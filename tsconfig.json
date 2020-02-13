@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "sourceMap": true,
+    "allowJs": false,
+    "lib": ["es2017", "dom"],
+    "noImplicitAny": false,
+    "strict": false,
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": ["pages/**/*", "compontens/**/*"],
+  "exclude": ["**/node_modules/*", "**/dist/*", "**/*.js"]
+}
