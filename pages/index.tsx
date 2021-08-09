@@ -6,7 +6,7 @@ import Nav from '../components/nav';
 import { MaxWidth } from '../components/max-width';
 
 const SomeBox = styled(Box)`
-    border: 1px solid lime;
+    border: 0px solid lime;
 `;
 
 const Button = styled.button`
@@ -25,22 +25,18 @@ const Home = () => (
 
             <Flex>
                 <Box>
-                    <h1>Home Page</h1>
+                    <h1>Hello World</h1>
                 </Box>
             </Flex>
 
             <Flex flexWrap='wrap'>
-                <Box width={[1, 1 / 2]} p={3}>
-                    Left
+                <Box width={[1, 1 / 2]}>
+                    Content Left
                 </Box>
-                <Box width={[1, 1 / 2]} p={3}>
-                    Right
+                <Box width={[1, 1 / 2]}>
+                    Content Right
                 </Box>
             </Flex>
-
-            <SomeBox>
-                <Button>BUTTON</Button>
-            </SomeBox>
         </MaxWidth>
     </>
 );

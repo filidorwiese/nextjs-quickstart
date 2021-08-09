@@ -7,7 +7,7 @@ function Nav() {
         <Flex>
             <Box pr={10}>
                 <Link href='/'>
-                    <a>Home</a>
+                    <a>First Page</a>
                 </Link>
             </Box>
             <Box pr={10}>
